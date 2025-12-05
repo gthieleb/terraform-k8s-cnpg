@@ -119,3 +119,39 @@ awx                  awx-web-7b9ffdd8bb-qxb8l                            3/3    
 > The `awx-migration` job may take several minutes to complete during the initial setup.  
 > Additionally, the `awx-task` and `awx-web` pods can take a few minutes to initialize fully after the database has migrated.  
 > During this period, the containers might show as `Pending`, `Init`, or `ContainerCreating`; this is expected behavior and will resolve automatically.
+# Terraform K8s CNPG
+
+This project provides Terraform configurations for setting up a Kubernetes cluster with CNPG (Cloud Native PostgreSQL).
+
+## Features
+
+- Deploy Kubernetes cluster
+- Integrate CNPG for PostgreSQL management
+
+## Prerequisites
+
+- Terraform
+- Kubernetes CLI
+- Access to a Kubernetes cluster
+
+## Usage
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/gthieleb/terraform-k8s-cnpg.git
+   cd terraform-k8s-cnpg
+   ```
+
+2. Initialize Terraform:
+   ```bash
+   terraform init
+   ```
+
+3. Apply the Terraform configuration:
+   ```bash
+   terraform apply
+   ```
+
+## License
+
+This project is licensed under the MIT License.
