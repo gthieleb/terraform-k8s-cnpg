@@ -1,0 +1,42 @@
+
+# 2025-12-06 00:02:51.938712
++yes
+
+# 2025-12-06 00:02:52.372155
++create README and public github project on gthieleb/terraform-k8s-cnpg
+
+# 2025-12-06 00:02:52.372221
++create README and public github project on gthieleb/terraform-k8s-cnpg
+
+# 2025-12-06 00:03:15.945358
++/run git remote add origin https://github.com/gthieleb/terraform-k8s-cnpg.git
+
+# 2025-12-06 00:03:15.945412
++/run git remote add origin https://github.com/gthieleb/terraform-k8s-cnpg.git
+
+# 2025-12-06 00:03:16.451823
++/run git branch -M main
+
+# 2025-12-06 00:03:16.451875
++/run git branch -M main
+
+# 2025-12-06 00:03:16.883936
++/run git push -u origin main
+
+# 2025-12-06 00:03:16.884018
++/run git push -u origin main
+
+# 2025-12-06 00:03:39.384858
++create  public github project on gthieleb/terraform-k8s-cnpg with gh cli
+
+# 2025-12-06 00:03:39.385358
++create  public github project on gthieleb/terraform-k8s-cnpg with gh cli
+
+# 2025-12-06 00:03:51.619047
++/run gh repo create gthieleb/terraform-k8s-cnpg --public --source=. --remote=origin
+
+# 2025-12-06 00:03:51.619145
++/run gh repo create gthieleb/terraform-k8s-cnpg --public --source=. --remote=origin
+
+# 2025-12-06 00:04:39.356112
++yes

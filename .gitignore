@@ -1,0 +1,18 @@
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+*.tfvars
+crash.log
+override.tf
+override.tf.json
+
+# Kind Kubeconfig
+**-config
+
+# Editor / system files
+.vscode/
+*.swp
+.DS_Store
+.idea/
+.aider*
